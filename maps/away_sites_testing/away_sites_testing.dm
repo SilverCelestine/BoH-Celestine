@@ -21,7 +21,7 @@
 	#include "../away/unishi/unishi.dm"
 	#include "../away/ascent/ascent.dm"
 	#include "../away/rawl/rawl.dm"
-
+	#include "../away/civstation/civstation.dm"
 	#include "../away/voxship/voxship.dm"
 
 	#define using_map_DATUM /datum/map/away_sites_testing

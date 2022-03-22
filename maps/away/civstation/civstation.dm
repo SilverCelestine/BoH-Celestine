@@ -3,6 +3,18 @@
 #include "civstation_access.dm"
 #include "civstation_shuttles.dm"
 
+/datum/map_template/ruin/away_site/civstation
+	name = "Civilian Station"
+	id = "awaysite_civstation"
+	description = "A civilian station."
+	suffixes = list("civstation/civstation.dmm")
+	cost = 0
+	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/civ_shuttle)
+	area_usage_test_exempted_root_areas = list(/area/ship)
+	apc_test_exempt_areas = list(
+
+	)
+
 /obj/effect/submap_landmark/joinable_submap/civstation
 	name = "Civilian Station"
 	archetype = /decl/submap_archetype/civstation
@@ -26,18 +38,6 @@
 	)
 	initial_restricted_waypoints = list( //Station shuttle
 		"Civilian Shuttle" = list("nav_civshuttle_dock")
-	)
-
-/datum/map_template/ruin/away_site/civstation
-	name = "Civilian Station"
-	id = "awaysite_civstation"
-	description = "A civilian station."
-	suffixes = list("civstation/civstation.dmm")
-	cost = 0
-	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/civ_shuttle)
-	area_usage_test_exempted_root_areas = list(/area/ship)
-	apc_test_exempt_areas = list(
-
 	)
 
 /obj/machinery/power/apc/civstation //civstation exclusive APC for access restriction

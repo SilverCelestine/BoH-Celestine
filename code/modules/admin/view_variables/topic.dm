@@ -97,6 +97,17 @@
 		src.holder.show_player_panel(M)
 		href_list["datumrefresh"] = href_list["mob_player_panel"]
 
+	else if(href_list["offerghosts"])
+		if(!check_rights(R_ADMIN|R_FUN))	return
+
+		var/mob/M = locate(href_list["offerghosts"])
+		if(!istype(M))
+			to_chat(usr, "This can only be used on instances of type /mob")
+			return
+
+		offer_control(M)
+		href_list["datumrefresh"] = href_list["offerghosts"]
+
 	else if(href_list["give_spell"])
 		if(!check_rights(R_ADMIN|R_FUN))	return
 
@@ -106,6 +117,17 @@
 			return
 
 		src.give_spell(M)
+		href_list["datumrefresh"] = href_list["give_spell"]
+
+	else if(href_list["give_disease2"])
+		if(!check_rights(R_ADMIN|R_FUN))	return
+
+		var/mob/M = locate(href_list["give_disease2"])
+		if(!istype(M))
+			to_chat(usr, "This can only be used on instances of type /mob")
+			return
+
+		src.give_disease2(M)
 		href_list["datumrefresh"] = href_list["give_spell"]
 
 	else if(href_list["godmode"])
@@ -493,7 +515,7 @@
 		to_chat(H, "Your NanoUI Resource files have been refreshed")
 
 		log_admin("[key_name(usr)] resent the NanoUI resource files to [key_name(H)] ")
-	
+
 	else if(href_list["fix_vue"])
 		if(!check_rights(R_DEBUG)) return
 

@@ -16,6 +16,7 @@
 "bs" = (/obj/structure/table/reinforced,/obj/machinery/door/window/brigdoor/northleft,/obj/machinery/door/firedoor,/obj/item/rig_module/device/paperdispenser,/turf/simulated/floor/light,/area/space)
 "bu" = (/obj/effect/floor_decal/industrial/outline,/obj/structure/closet/crate,/obj/random/loot,/obj/random/loot,/obj/random/loot,/turf/simulated/floor/light,/area/space)
 "bv" = (/obj/machinery/vending/boozeomat,/obj/structure/window/reinforced/tinted/frosted{dir = 8},/turf/simulated/floor/light,/area/space)
+"by" = (/obj/structure/hygiene/toilet{dir = 1},/turf/simulated/floor/holofloor/tiled/stone,/area/space)
 "bD" = (/obj/structure/wall_frame/hull,/obj/effect/wingrille_spawn/reinforced,/obj/machinery/door/firedoor,/turf/space,/area/space)
 "bG" = (/obj/machinery/appliance/cooker/oven,/turf/simulated/floor/light,/area/space)
 "bJ" = (/obj/machinery/computer/rdconsole/core{dir = 4},/turf/simulated/floor/light,/area/space)
@@ -63,6 +64,7 @@
 "gj" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 9; icon_state = "intact"},/turf/simulated/floor/light,/area/space)
 "gr" = (/obj/structure/table/glass,/obj/item/weapon/defibrillator,/obj/item/auto_cpr,/turf/simulated/floor/tiled/white,/area/space)
 "gt" = (/obj/machinery/embedded_controller/radio/airlock{dir = 8},/turf/simulated/wall/r_titanium,/area/space)
+"gu" = (/obj/machinery/door/airlock/multi_tile/command,/obj/machinery/door/blast/shutters/open,/obj/machinery/door/firedoor,/turf/simulated/floor/light,/area/space)
 "gv" = (/obj/machinery/door/firedoor,/obj/machinery/door/blast/shutters/open,/turf/simulated/floor/light,/area/space)
 "gD" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/light,/area/space)
 "gJ" = (/obj/machinery/door/airlock/medical,/obj/machinery/door/firedoor,/turf/simulated/floor/light,/area/space)
@@ -102,8 +104,10 @@
 "kk" = (/obj/structure/lattice,/obj/structure/cable{dir = 8},/obj/structure/cable{dir = 4},/turf/simulated/floor/light,/area/space)
 "kl" = (/obj/machinery/portable_atmospherics/canister/oxygen,/obj/machinery/atmospherics/portables_connector{dir = 8},/turf/simulated/floor/light,/area/space)
 "kp" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 8; frequency = 1441; icon_state = "map_injector"; id = "co2_in"; pixel_y = 0; use_power = 1},/turf/simulated/floor/reinforced/carbon_dioxide,/area/space)
+"kv" = (/obj/structure/bed/chair/armchair/black,/turf/simulated/floor/wood/mahogany,/area/space)
 "kx" = (/obj/machinery/mineral/stacking_machine,/turf/simulated/floor/light,/area/space)
 "kA" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 10},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 9},/obj/effect/catwalk_plated/dark,/obj/effect/catwalk_plated,/obj/effect/catwalk_plated,/turf/simulated/floor/light,/area/space)
+"kB" = (/obj/structure/wall_frame/hull,/obj/effect/wingrille_spawn/reinforced,/obj/machinery/door/firedoor,/obj/machinery/door/blast/regular/open,/turf/simulated/floor/light,/area/space)
 "kC" = (/obj/structure/table/woodentable/ebony,/obj/machinery/door/blast/shutters/open,/obj/machinery/door/firedoor,/turf/simulated/floor/light,/area/space)
 "kG" = (/obj/machinery/button/alternate,/turf/simulated/wall/prepainted,/area/space)
 "kN" = (/obj/effect/floor_decal/industrial/outline,/obj/structure/closet/crate/freezer,/obj/item/weapon/reagent_containers/food/drinks/bottle/small/beer,/obj/item/weapon/reagent_containers/food/drinks/bottle/small/beer,/obj/item/weapon/reagent_containers/food/drinks/bottle/small/beer,/obj/item/weapon/reagent_containers/food/drinks/bottle/small/beer,/obj/item/weapon/reagent_containers/food/drinks/bottle/small/gingerbeer,/obj/item/weapon/reagent_containers/food/drinks/bottle/small/gingerbeer,/obj/item/weapon/reagent_containers/food/drinks/cans/ale,/obj/item/weapon/reagent_containers/food/drinks/cans/ale,/obj/item/weapon/reagent_containers/food/drinks/cans/ale,/obj/item/weapon/reagent_containers/food/drinks/cans/ale,/obj/item/weapon/reagent_containers/food/drinks/cans/ale,/turf/simulated/floor/light,/area/space)
@@ -124,10 +128,12 @@
 "mg" = (/obj/machinery/door/firedoor,/obj/effect/wallframe_spawn/reinforced_phoron,/obj/machinery/meter,/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id_tag = "Atmoslockdown"; name = "Atmospherics Blast Doors"; opacity = 0},/obj/machinery/atmospherics/pipe/simple/hidden/yellow{dir = 4},/turf/simulated/floor/plating,/area/space)
 "mi" = (/obj/structure/hygiene/toilet{dir = 8},/obj/structure/curtain/medical,/turf/simulated/floor/light,/area/space)
 "ms" = (/obj/structure/bed/chair/comfy/brown{dir = 1},/turf/simulated/floor/light,/area/space)
+"mz" = (/obj/item/drain/bath,/turf/simulated/floor/pool,/area/space)
 "mA" = (/obj/machinery/mineral/processing_unit,/turf/simulated/floor/light,/area/space)
 "mC" = (/obj/machinery/door/airlock/multi_tile/glass/mining,/turf/simulated/floor/light,/area/space)
 "mD" = (/obj/machinery/computer/ship/helm,/turf/simulated/floor/light,/area/space)
 "mR" = (/obj/effect/floor_decal/ntlogo,/turf/simulated/floor/light,/area/space)
+"mT" = (/obj/structure/closet/secure_closet/captains,/obj/item/weapon/gun/energy/revolver/secure,/turf/simulated/floor/wood/mahogany,/area/space)
 "ni" = (/obj/effect/floor_decal/industrial/outline,/obj/machinery/light/small{dir = 8},/obj/structure/closet/crate,/obj/random/loot,/obj/random/loot,/obj/random/loot,/turf/simulated/floor/light,/area/space)
 "nj" = (/obj/machinery/vending/coffee{dir = 8; pixel_x = 12},/turf/simulated/floor/light,/area/space)
 "no" = (/obj/effect/floor_decal/industrial/outline,/obj/machinery/light/small{dir = 4},/obj/structure/largecrate,/obj/random/loot,/obj/random/loot,/obj/random/loot,/obj/random/maintenance,/turf/simulated/floor/light,/area/space)
@@ -138,6 +144,7 @@
 "nG" = (/obj/structure/closet/secure_closet/freezer/kitchen,/turf/simulated/floor/tiled/freezer,/area/space)
 "nM" = (/obj/effect/floor_decal/industrial/outline,/obj/random/voidsuit,/obj/random/voidhelmet,/obj/structure/closet/crate,/obj/random/loot,/turf/simulated/floor/light,/area/space)
 "nR" = (/obj/machinery/mineral/unloading_machine,/turf/simulated/floor/light,/area/space)
+"nU" = (/obj/machinery/button/toggle/alternate{name = "Solarian Distress Transponder"; desc = "Press this button to Activated a Sol Distress Transponder recognizable by all SolGov Vessels in the area."},/turf/simulated/wall/r_wall/hull,/area/space)
 "nX" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 9},/obj/machinery/oxygen_pump,/turf/simulated/wall/r_titanium,/area/space)
 "nY" = (/obj/structure/lattice,/obj/structure/cable{dir = 4},/obj/structure/cable{dir = 8},/turf/simulated/floor/light,/area/space)
 "og" = (/obj/machinery/atmospherics/pipe/manifold/visible/fuel{dir = 1},/obj/structure/bed/chair/shuttle/white{dir = 1},/turf/simulated/floor/light,/area/space)
@@ -149,6 +156,7 @@
 "oL" = (/obj/machinery/computer/power_monitor{dir = 4},/obj/structure/table/reinforced,/obj/structure/window/reinforced/tinted/frosted{dir = 8},/turf/simulated/floor/light,/area/space)
 "oQ" = (/obj/structure/closet/crate/uranium,/obj/item/stack/material/uranium/ten,/obj/item/stack/material/uranium/ten,/obj/item/stack/material/uranium/ten,/obj/item/stack/material/uranium/ten,/obj/item/stack/material/uranium/ten,/obj/item/stack/material/uranium/ten,/turf/simulated/floor,/area/space)
 "oR" = (/obj/structure/cable{dir = 8},/obj/structure/cable{dir = 1},/turf/simulated/floor/light,/area/space)
+"oX" = (/obj/machinery/door/airlock/hatch,/turf/simulated/wall/r_wall/hull,/area/space)
 "pc" = (/obj/machinery/vending/wallmed1{dir = 1},/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/turf/simulated/wall/r_titanium,/area/space)
 "pe" = (/obj/machinery/vending/wallmed1{dir = 8},/turf/simulated/wall/prepainted,/area/space)
 "ph" = (/obj/machinery/portable_atmospherics/powered/pump/filled,/turf/simulated/floor/tiled/techfloor,/area/space)
@@ -159,7 +167,7 @@
 "pK" = (/obj/structure/wall_frame/hull,/obj/effect/wallframe_spawn/reinforced,/obj/machinery/door/firedoor,/turf/simulated/wall/r_wall/hull,/area/space)
 "pN" = (/obj/structure/closet/rawlkitchen,/turf/simulated/floor/tiled/freezer,/area/space)
 "qg" = (/obj/machinery/merchant_pad,/turf/simulated/floor/light,/area/space)
-"qj" = (/obj/machinery/door/airlock/multi_tile/command,/turf/simulated/floor/light,/area/space)
+"qj" = (/obj/machinery/door/airlock/multi_tile/command,/obj/machinery/door/firedoor,/turf/simulated/floor/light,/area/space)
 "qt" = (/obj/machinery/conveyor{dir = 4},/obj/effect/catwalk_plated/dark,/obj/effect/catwalk_plated,/turf/simulated/floor/light,/area/space)
 "qw" = (/obj/machinery/computer/air_control{dir = 4; input_tag = "n2_in"; name = "Nitrogen Supply Control"; output_tag = "n2_out"; sensor_name = "Biological Containment Atmosphere"; sensor_tag = "a1_sensor"},/obj/machinery/atmospherics/pipe/simple/visible/green,/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/space)
 "qy" = (/obj/machinery/button/alternate/door/bolts,/turf/simulated/wall/prepainted,/area/space)
@@ -176,15 +184,18 @@
 "rm" = (/obj/effect/floor_decal/industrial/outline,/obj/structure/closet/secure_closet/miner,/turf/simulated/floor/light,/area/space)
 "rG" = (/obj/machinery/vending/wallmed1,/turf/simulated/wall/prepainted,/area/space)
 "rJ" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4; icon_state = "intact"},/obj/effect/floor_decal/industrial/warning/corner{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/space)
+"rR" = (/obj/machinery/door/airlock/external/bolted,/turf/space,/area/space)
 "rT" = (/obj/structure/table/reinforced,/obj/machinery/chemical_dispenser/tac_coffee/full,/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/NT,/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/NT,/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/NT,/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/NT,/turf/simulated/floor/light,/area/space)
 "rX" = (/obj/machinery/power/apc{dir = 1},/turf/simulated/wall/r_wall/hull,/area/space)
 "rZ" = (/obj/machinery/power/apc,/turf/simulated/wall/r_wall/hull,/area/space)
 "sj" = (/obj/machinery/vending/medical{dir = 4; pixel_x = -6},/turf/simulated/floor/light,/area/space)
 "sl" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/space)
+"sm" = (/turf/simulated/floor/holofloor/tiled/stone,/area/space)
 "so" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/tiled/techfloor,/area/space)
 "sD" = (/obj/structure/cable{dir = 1},/obj/structure/cable{dir = 8},/turf/simulated/floor/light,/area/space)
 "sF" = (/obj/machinery/atmospherics/binary/pump/on{dir = 8; name = "Air to Pump"},/turf/simulated/floor/tiled/techfloor/grid,/area/space)
 "sG" = (/obj/machinery/light,/turf/simulated/floor/light,/area/space)
+"sH" = (/obj/structure/lattice,/obj/machinery/shipsensors,/turf/simulated/floor/reinforced/airless,/area/space)
 "sP" = (/obj/machinery/atmospherics/binary/pump,/turf/simulated/floor/light,/area/space)
 "sT" = (/turf/simulated/wall/prepainted,/area/space)
 "sX" = (/obj/machinery/vending/cola{dir = 1},/turf/simulated/floor/light,/area/space)
@@ -193,11 +204,13 @@
 "tp" = (/obj/structure/bed/chair/office/comfy/blue{dir = 8},/turf/simulated/floor/light,/area/space)
 "tw" = (/obj/effect/floor_decal/industrial/outline,/obj/structure/table/gamblingtable,/obj/random/single/playing_cards,/turf/simulated/floor/light,/area/space)
 "tB" = (/obj/structure/hygiene/toilet,/turf/simulated/floor/light,/area/space)
+"tE" = (/obj/machinery/light_switch,/turf/simulated/wall/mahogany,/area/space)
 "tJ" = (/obj/machinery/power/apc{dir = 1},/turf/simulated/wall/r_titanium,/area/space)
 "tP" = (/obj/structure/wall_frame/standard,/obj/machinery/door/blast/shutters/open,/obj/effect/wingrille_spawn/reinforced,/turf/simulated/floor/light,/area/space)
 "tQ" = (/obj/machinery/atmospherics/unary/vent_pump{dir = 4; external_pressure_bound = 0; external_pressure_bound_default = 0; frequency = 1441; icon_state = "map_vent_in"; id_tag = "o2_out"; initialize_directions = 1; internal_pressure_bound = 4000; internal_pressure_bound_default = 4000; pressure_checks = 2; pressure_checks_default = 2; pump_direction = 0; use_power = 1},/obj/machinery/air_sensor{id_tag = "o2_sensor"},/turf/simulated/floor/reinforced/oxygen,/area/space)
 "tX" = (/obj/machinery/atmospherics/binary/pump{dir = 8},/obj/machinery/atmospherics/pipe/simple/visible/green,/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/space)
 "tZ" = (/obj/structure/closet/secure_closet/cargotech,/turf/simulated/floor/light,/area/space)
+"ug" = (/obj/structure/hygiene/sink{dir = 8; pixel_x = -12},/turf/simulated/floor/holofloor/tiled/stone,/area/space)
 "uj" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 6},/obj/structure/fuel_port,/turf/simulated/wall/r_titanium,/area/space)
 "ul" = (/obj/structure/window/reinforced{dir = 8},/obj/structure/table/glass,/obj/machinery/computer/modular/preset/medical,/turf/simulated/floor/light,/area/space)
 "un" = (/obj/machinery/conveyor,/turf/simulated/floor/light,/area/space)
@@ -235,6 +248,7 @@
 "xo" = (/obj/machinery/computer/ship/engines{dir = 4},/turf/simulated/floor/light,/area/space)
 "xt" = (/obj/structure/table/rack/shelf,/obj/item/roller,/obj/item/roller,/obj/item/roller,/obj/item/roller,/obj/item/roller,/turf/simulated/floor/light,/area/space)
 "xG" = (/obj/structure/bed/chair/padded/red,/turf/simulated/floor/wood/walnut,/area/space)
+"xW" = (/obj/structure/lattice,/obj/machinery/door/airlock/external/bolted,/turf/space,/area/space)
 "yc" = (/obj/structure/sign/warning/compressed_gas{dir = 8; icon_state = "hikpa"},/turf/simulated/wall/r_wall/hull,/area/space)
 "ym" = (/obj/machinery/computer/modular/preset/engineering{dir = 8},/obj/structure/table/reinforced,/obj/structure/window/reinforced/tinted/frosted{dir = 4},/turf/simulated/floor/light,/area/space)
 "yp" = (/obj/machinery/door/window/westleft,/turf/simulated/floor/light,/area/space)
@@ -262,6 +276,7 @@
 "AF" = (/obj/structure/bed/chair/padded/red{dir = 8},/turf/simulated/floor/wood/walnut,/area/space)
 "AN" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/space)
 "AR" = (/obj/machinery/firealarm,/turf/simulated/wall/r_wall/hull,/area/space)
+"AX" = (/obj/structure/bed/double/padded,/obj/item/weapon/bedsheet/captaindouble,/turf/simulated/floor/wood/mahogany,/area/space)
 "Bd" = (/obj/machinery/sleeper,/turf/simulated/floor/light,/area/space)
 "Bf" = (/turf/simulated/floor/light,/area/space)
 "Bv" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 8},/obj/effect/catwalk_plated/dark,/obj/effect/catwalk_plated,/obj/effect/catwalk_plated,/turf/simulated/floor/light,/area/space)
@@ -291,6 +306,7 @@
 "Dp" = (/obj/machinery/computer/rdconsole/core,/turf/simulated/floor/light,/area/space)
 "Dw" = (/obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,/turf/simulated/floor/light,/area/space)
 "DH" = (/obj/structure/table/reinforced,/obj/random/snack,/obj/random/snack,/obj/random/snack,/obj/random/snack,/obj/random/snack,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/light,/area/space)
+"DL" = (/obj/structure/table/woodentable_reinforced/ebony,/obj/item/weapon/storage/fancy/cigar,/obj/item/weapon/flame/lighter/zippo/brass,/turf/simulated/floor/wood/mahogany,/area/space)
 "DS" = (/obj/machinery/atmospherics/pipe/manifold/visible/fuel{dir = 4},/turf/simulated/wall/r_titanium,/area/space)
 "DU" = (/obj/machinery/computer/ship/engines{dir = 4},/obj/structure/cable{dir = 8},/turf/simulated/floor/light,/area/space)
 "DW" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow,/turf/simulated/floor/tiled/techfloor,/area/space)
@@ -301,6 +317,7 @@
 "EE" = (/obj/machinery/door/blast/regular,/obj/structure/cable,/obj/structure/cable{dir = 1},/turf/simulated/floor,/area/space)
 "EK" = (/obj/machinery/computer/ship/helm,/obj/structure/cable{dir = 1},/obj/structure/cable{dir = 8},/obj/structure/cable{dir = 4},/turf/simulated/floor/light,/area/space)
 "EQ" = (/obj/machinery/light{dir = 1},/turf/simulated/floor,/area/space)
+"EY" = (/obj/machinery/door/blast/shutters/open,/obj/machinery/door/firedoor,/turf/simulated/floor/light,/area/space)
 "Fb" = (/obj/structure/bed/chair/padded/red{dir = 4},/turf/simulated/floor/wood/walnut,/area/space)
 "Fd" = (/obj/machinery/atmospherics/portables_connector{dir = 4; icon_state = "map_connector"},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor/grid,/area/space)
 "Fq" = (/obj/machinery/door/airlock/external/bolted,/obj/machinery/door/firedoor,/turf/simulated/floor/light,/area/space)
@@ -325,7 +342,7 @@
 "GW" = (/obj/machinery/computer/shuttle_control/merchant{dir = 1},/turf/simulated/floor/light,/area/space)
 "Hi" = (/obj/structure/cable{dir = 1},/obj/structure/cable{dir = 4},/obj/structure/cable{dir = 8},/obj/structure/cable,/turf/simulated/floor,/area/space)
 "Hj" = (/obj/structure/cable{dir = 4},/obj/structure/cable,/obj/structure/cable{dir = 1},/turf/simulated/floor,/area/space)
-"Hk" = (/obj/machinery/door/firedoor,/obj/machinery/door/airlock/external/glass,/turf/space,/area/space)
+"Hk" = (/obj/machinery/door/firedoor,/obj/machinery/door/airlock/external/bolted,/turf/space,/area/space)
 "Hm" = (/obj/machinery/door/firedoor,/obj/effect/wallframe_spawn/reinforced_phoron,/obj/machinery/meter,/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 4; icon_state = "intact"},/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id_tag = "Atmoslockdown"; name = "Atmospherics Blast Doors"; opacity = 0},/turf/simulated/floor/plating,/area/space)
 "Hq" = (/obj/machinery/atmospherics/pipe/manifold/visible/scrubbers{dir = 1},/obj/machinery/atmospherics/pipe/manifold/visible/supply,/obj/effect/catwalk_plated/dark,/obj/effect/catwalk_plated,/turf/simulated/floor/light,/area/space)
 "Ht" = (/obj/machinery/r_n_d/circuit_imprinter,/obj/item/weapon/reagent_containers/glass/beaker/sulphuric,/turf/simulated/floor/light,/area/space)
@@ -361,10 +378,12 @@
 "JQ" = (/obj/structure/cable,/obj/structure/cable{dir = 1},/turf/simulated/floor,/area/space)
 "Kg" = (/obj/machinery/organ_printer/robot,/turf/simulated/floor/light,/area/space)
 "Ki" = (/obj/structure/hygiene/sink/kitchen,/turf/simulated/wall/prepainted,/area/space)
+"Kt" = (/obj/machinery/door/unpowered/simple/mahogany,/turf/simulated/floor/light,/area/space)
 "Ku" = (/obj/machinery/atmospherics/pipe/manifold/visible/red{dir = 4; icon_state = "map"},/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor,/area/space)
 "KD" = (/obj/machinery/door/airlock/civilian,/obj/machinery/door/firedoor,/turf/simulated/wall/r_wall/hull,/area/space)
 "KH" = (/obj/machinery/light/small,/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 8},/turf/simulated/floor/light,/area/space)
 "KJ" = (/obj/machinery/door/firedoor,/obj/machinery/light{dir = 1},/turf/simulated/floor/light,/area/space)
+"KK" = (/obj/structure/hygiene/faucet,/turf/simulated/floor/pool,/area/space)
 "KM" = (/obj/structure/hygiene/sink{dir = 8; pixel_x = -12},/turf/simulated/floor/light,/area/space)
 "KT" = (/obj/effect/floor_decal/industrial/outline,/obj/structure/largecrate,/obj/random/loot,/obj/random/loot,/obj/random/loot,/obj/random/contraband,/obj/random/masks,/turf/simulated/floor/light,/area/space)
 "KV" = (/obj/structure/table/standard,/turf/simulated/floor/light,/area/space)
@@ -375,6 +394,7 @@
 "Lo" = (/obj/machinery/alarm{dir = 1},/turf/simulated/wall/r_wall/hull,/area/space)
 "Lp" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/machinery/portable_atmospherics/powered/scrubber,/turf/simulated/floor/tiled/techfloor/grid,/area/space)
 "Lq" = (/obj/effect/floor_decal/industrial/outline,/obj/structure/largecrate,/obj/random/loot,/obj/random/loot,/obj/random/loot,/obj/random/contraband,/obj/random/mre,/turf/simulated/floor/light,/area/space)
+"Lv" = (/obj/structure/hygiene/shower{dir = 4},/turf/simulated/floor/holofloor/tiled/stone,/area/space)
 "LC" = (/obj/effect/floor_decal/industrial/outline,/obj/structure/closet/crate/secure/loot,/obj/random/loot,/obj/random/loot,/obj/random/contraband,/turf/simulated/floor/light,/area/space)
 "LE" = (/obj/machinery/disposal,/turf/simulated/floor/light,/area/space)
 "LG" = (/obj/machinery/button/blast_door,/turf/simulated/wall/prepainted,/area/space)
@@ -388,10 +408,12 @@
 "Ml" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 6},/turf/simulated/floor/tiled/techfloor,/area/space)
 "Mp" = (/obj/machinery/door/airlock/civilian,/turf/simulated/floor/light,/area/space)
 "Mv" = (/obj/structure/bed/chair/shuttle/white{dir = 1},/turf/simulated/floor/light,/area/space)
+"MC" = (/obj/machinery/button/toggle/alternate{name = "General Distress Transponder"; desc = "Press this button to Activated a General Distress Transponder  recognizable by ALL Vessels in the area... You might get more than what you bargained for."},/turf/simulated/wall/r_wall/hull,/area/space)
 "MO" = (/turf/simulated/floor/wood/walnut,/area/space)
 "MP" = (/obj/machinery/door/firedoor,/obj/machinery/door/blast/shutters/open,/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/visible/supply{dir = 8},/obj/effect/catwalk_plated/dark,/obj/effect/catwalk_plated,/turf/simulated/floor/light,/area/space)
 "MX" = (/obj/item/weapon/gun/projectile/shotgun/doublebarrel,/obj/item/clothing/accessory/badge/firearm/bar,/obj/item/clothing/suit/storage/vest/barkeep,/turf/simulated/floor/light,/area/space)
 "MZ" = (/obj/structure/bed/padded,/obj/structure/curtain/medical,/turf/simulated/floor/light,/area/space)
+"Nb" = (/obj/item/modular_computer/telescreen,/turf/simulated/wall/mahogany,/area/space)
 "Nd" = (/obj/machinery/chemical_dispenser,/turf/simulated/floor/light,/area/space)
 "Nm" = (/obj/machinery/door/airlock/external,/turf/space,/area/space)
 "Nq" = (/obj/machinery/door/firedoor,/turf/simulated/floor,/area/space)
@@ -401,6 +423,7 @@
 "NM" = (/obj/structure/closet/secure_closet/freezer/meat,/turf/simulated/floor/tiled/freezer,/area/space)
 "NP" = (/obj/machinery/door/airlock/external/bolted,/turf/simulated/floor/light,/area/space)
 "NQ" = (/obj/machinery/atmospherics/unary/vent_pump{dir = 8; external_pressure_bound = 0; external_pressure_bound_default = 0; frequency = 1441; icon_state = "map_vent_in"; id_tag = "co2_out"; initialize_directions = 1; internal_pressure_bound = 4000; internal_pressure_bound_default = 4000; pressure_checks = 2; pressure_checks_default = 2; pump_direction = 0; use_power = 1},/obj/machinery/air_sensor{id_tag = "co2_sensor"},/turf/simulated/floor/reinforced/carbon_dioxide,/area/space)
+"NS" = (/turf/simulated/wall/mahogany,/area/space)
 "NT" = (/obj/structure/cable{dir = 1},/turf/simulated/floor,/area/space)
 "Ob" = (/obj/machinery/light{dir = 8},/turf/simulated/floor,/area/space)
 "Og" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4; icon_state = "intact"},/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled/techfloor/grid,/area/space)
@@ -434,7 +457,7 @@
 "PV" = (/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/light,/area/space)
 "PW" = (/obj/structure/sign/warning/secure_area,/turf/simulated/wall/r_wall/hull,/area/space)
 "PX" = (/obj/machinery/door/airlock/hatch/maintenance,/obj/machinery/door/firedoor,/turf/simulated/floor/light,/area/space)
-"Qg" = (/obj/machinery/computer,/turf/simulated/floor/light,/area/space)
+"Qg" = (/obj/machinery/computer/ship/navigation,/turf/simulated/floor/light,/area/space)
 "Qm" = (/obj/machinery/fabricator,/turf/simulated/floor/light,/area/space)
 "Qu" = (/obj/machinery/power/smes,/turf/simulated/floor/light,/area/space)
 "QA" = (/obj/machinery/door/airlock/glass/medical,/obj/machinery/door/firedoor,/turf/simulated/floor/light,/area/space)
@@ -454,6 +477,7 @@
 "RM" = (/turf/simulated/floor,/area/space)
 "RN" = (/obj/structure/filingcabinet/wallcabinet,/turf/simulated/wall/prepainted,/area/space)
 "RT" = (/obj/structure/cable{dir = 8},/obj/structure/cable,/turf/simulated/floor,/area/space)
+"Sb" = (/turf/simulated/floor/wood/mahogany,/area/space)
 "Si" = (/obj/machinery/door/airlock/civilian,/obj/machinery/door/firedoor,/turf/simulated/floor,/area/space)
 "Sn" = (/obj/structure/closet/secure_closet/medical1,/turf/simulated/floor/light,/area/space)
 "Sr" = (/obj/structure/bed/chair{dir = 1},/turf/simulated/floor/light,/area/space)
@@ -479,6 +503,7 @@
 "Ub" = (/obj/machinery/computer/ship/sensors{dir = 4},/turf/simulated/floor/light,/area/space)
 "Ue" = (/obj/structure/cable{dir = 4},/obj/structure/cable{dir = 1},/turf/simulated/floor/light,/area/space)
 "Uf" = (/obj/machinery/button/blast_door,/turf/simulated/wall/r_wall/hull,/area/space)
+"Ug" = (/obj/structure/table/woodentable_reinforced/ebony,/obj/item/device/flashlight/lamp/lava/red,/turf/simulated/floor/wood/mahogany,/area/space)
 "Um" = (/obj/machinery/vending/wallmed1{dir = 8},/turf/simulated/wall/r_wall/hull,/area/space)
 "Us" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/machinery/door/firedoor,/obj/effect/wallframe_spawn/reinforced_phoron,/obj/machinery/meter,/obj/machinery/door/blast/regular{density = 0; dir = 4; icon_state = "pdoor0"; id_tag = "Atmoslockdown"; name = "Atmospherics Blast Doors"; opacity = 0},/turf/simulated/floor/plating,/area/space)
 "Uu" = (/obj/structure/window/reinforced{dir = 8},/obj/machinery/disposal/deliveryChute{dir = 4},/turf/simulated/floor/light,/area/space)
@@ -513,6 +538,7 @@
 "WN" = (/obj/effect/floor_decal/industrial/outline,/obj/machinery/light/small{dir = 4},/obj/structure/closet/crate,/obj/random/loot,/obj/random/loot,/obj/random/loot,/turf/simulated/floor/light,/area/space)
 "WX" = (/obj/machinery/atmospherics/pipe/simple/visible/universal{dir = 4},/obj/machinery/meter,/turf/simulated/floor/tiled/techfloor/grid,/area/space)
 "Xf" = (/obj/machinery/body_scan_display,/turf/simulated/wall/r_wall/hull,/area/space)
+"Xi" = (/obj/structure/table/woodentable_reinforced/ebony,/obj/item/modular_computer/tablet/lease/preset/command,/turf/simulated/floor/wood/mahogany,/area/space)
 "Xr" = (/obj/machinery/vending/snack,/turf/simulated/floor/light,/area/space)
 "Xw" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/scrubbers,/obj/machinery/atmospherics/pipe/manifold/visible/supply,/turf/simulated/floor/light,/area/space)
 "Xz" = (/obj/machinery/door/airlock/research,/obj/machinery/door/firedoor,/turf/simulated/floor/light,/area/space)
@@ -543,6 +569,7 @@
 "Zx" = (/obj/machinery/light,/turf/simulated/floor,/area/space)
 "Zz" = (/obj/machinery/atmospherics/omni/filter{tag_east = 8; tag_north = 2; tag_south = 7; tag_west = 1},/obj/effect/floor_decal/techfloor{dir = 4; icon_state = "techfloor_edges"},/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/techfloor,/area/space)
 "ZA" = (/obj/structure/lattice,/turf/simulated/floor/light,/area/space)
+"ZC" = (/obj/structure/wall_frame/hull,/obj/effect/wingrille_spawn/reinforced,/obj/machinery/door/firedoor,/obj/machinery/door/blast/shutters/open,/turf/simulated/floor/light,/area/space)
 "ZE" = (/obj/machinery/vending/lavatory,/turf/simulated/floor,/area/space)
 "ZT" = (/obj/machinery/door/airlock/glass/atmos,/obj/machinery/door/firedoor,/turf/simulated/floor,/area/space)
 "ZW" = (/obj/structure/lattice,/obj/machinery/atmospherics/unary/engine,/turf/space,/area/space)
@@ -624,20 +651,20 @@ qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
 qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMOiOLviteJdyCpcteLdDSOiqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
 qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMOiOLDSkRIbgtOLDSOiqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
 qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMOiOikRNFkROiOiqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMVUVUVUVUVUVUqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMCAkRNPNPtJCAqMqMCAqDavtJCAqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRqMqMqMqMqMPkDpGzQgIZGzlkPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMCAkRkNPVPVJzkRCACAkRrmPVrmkRCAqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMtJmDXPqMqMqMPkjPLUGzBffDGzJtDjPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRYvGtBfBfFHWNkRkRGxFHBfFHWNkRqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRUbMvRJkRVUVUVUelBfBfBfBfBfBfITVUqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRGttwqXBfFHCCkRkRghFHBfFHLCkRqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRxoYbBfavavBfOqBfBfBfmRBfBfBfBfOqqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRFHGtBfBfgNcbkRkRxnFHBfFHjHkRqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMujqJogLVZjVUVUVUBfBfBfYbBfBfBfBfVUqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMNPPVBfBfBfBfPVavavPVBfBfBfPVNPqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMOiZqnXXPOiqMqMqMOnBfBfBfBfBfBfPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRbuFHBfBfFHFHkRkRLqFHBfFHYNkRqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkPkqjBfPkPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRKTFHBfBfFHbukRkRFHFHBfFHcbkRqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkOFBfBfOFPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRniFHBfBfLCnokRkRVoFHBfFHWNkRqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfBfBfBfPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMOikRzsPVPVcbkROiOikRUyPVjHkROiqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfBfBfBfPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMOikRavavkROiqMqMOikRavkROiqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfmRBfBfPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkIeIePkPkPkPkPkPGIeIePkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfBfBfBfPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkPkWDPkPkPVPVnRJCmAJCkxJDPVPVPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkPkPkBfBfBfBfPkPkqjBfPkPkBfBfPkVUVUVUPkVUVUVUPkPkPkqMqMqMqMqMqMqMPktZrTtZAnFMBfBfBffVBfBfBfBfBfPkqMqMqMYgqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkavPkavPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMYgkBkBkBkBkBkBYgqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMCAkRNPNPtJCAqMqMCAqDavtJCAqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRqMqMqMqMYgPkDpGzQgIZGzlkPkYgqMYgZCZCZCZCqMqMqMqMqMqMqMqMqMqMqMqMqMqMCAkRkNPVPVJzkRCACAkRrmPVrmkRCAqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMtJmDXPqMYgYgPkjPLUGzBffDGzJtDjPkYgZCkvSbSbUgZCqMqMqMqMqMqMqMqMqMqMqMqMqMkRYvGtBfBfFHWNkRkRGxFHBfFHWNkRqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRUbMvRJkRPkZCkBelBfBfBfBfBfBfITkBZCUfXiDLSbAXZCqMqMqMqMqMqMqMqMqMqMqMqMqMkRGttwqXBfFHCCkRkRghFHBfFHLCkRqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRxoYbBfavavwLOqBfBfBfmRBfBfBfBfOqwLOqSbSbSbmTZCqMqMqMqMqMqMqMqMqMqMqMqMqMkRFHGtBfBfgNcbkRkRxnFHBfFHjHkRqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMujqJogLVZjPkZCkBBfBfBfYbBfBfBfBfkBZCPkNbKttENSPkqMqMqMqMqMqMqMqMqMqMqMqMqMNPPVBfBfBfBfPVavavPVBfBfBfPVNPqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMOiZqnXXPOiYgYgYgOnBfBfBfBfBfBfnUYgYgPkLvsmsmKKPkqMqMqMqMqMqMqMqMqMqMqMqMqMkRbuFHBfBfFHFHkRkRLqFHBfFHYNkRqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMsHPkUfguEYPkMCYgqMYgPkugbysmmzPkqMqMqMqMqMqMqMqMqMqMqMqMqMkRKTFHBfBfFHbukRkRFHFHBfFHcbkRqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMYgPkOFBfBfOFPkYgqMqMYgPkPkPkPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMkRniFHBfBfLCnokRkRVoFHBfFHWNkRqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMYgYgPkBfBfBfBfPkYgYgqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMOikRzsPVPVcbkROiOikRUyPVjHkROiqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMYgTKrRPkBfBfBfBfPkxWPkYgqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMOikRavavkROiqMqMOikRavkROiqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMYgTKPkBfPkBfmRBfBfPkBfPkTKYgqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkIeIePkPkPkPkPkPGIeIePkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMYgTKjDZAoXBfBfBfBfoXZAjDTKYgqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkPkWDPkPkPVPVnRJCmAJCkxJDPVPVPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkPkPkPkPkPkPkPkPkqjRzPkPkPkPkPkVUVUVUPkVUVUVUPkPkPkqMqMqMqMqMqMqMPktZrTtZAnFMBfBfBffVBfBfBfBfBfPkqMqMqMYgqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkavPkavPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
 qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfBfBfBfBfBfBfBfBfBfBfBfBfBfFFBfBfBfRqXrBfBfTWKVPkYgqMqMqMqMqMqMPkhnBfBfTOBfBfFHFHBfBfFHFHBfunPkqMqMYgxlYgqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfAEBfPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
 qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfBfBfBfBfBfBfBfBfBfBfBfBfBfFFBfBfBfBfBfBfBfBfvIPkYgqMYgYgYgYgqMraFMGFGFsTFHBfdrFHBfQmFHWmfVunPkqMPkPkHkPkPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMhmBfBfBfhmqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
 qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMzVBfBfsTUTsTUTsTsTKisTUTsTKiLGsTMOMOxGxGMOMOMOBfBfVUqMPkPkHkPkPkYgPkBfSrqNsTnMBfJJCvPSFraMaiBfunPkqMPkBfjDBfPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfsGBfPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
@@ -647,7 +674,7 @@ qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
 qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfBfsTuppNnGsTfbKVBfvcWIBfBfkCYxMOiiMOFbVRAFBfBfBfBfwLBfzaBfwLBfBfBfBfBfBfBfBfBfBfTpBfBfBfBfBfBfBfwLTpzaBfwLBfBfBfTpBfBfBfvEBfBfBfBfBfBfBfgvBfAmBfgvBfBfBfBfBfBfvEBfBfTpBfBfavBfBfBfavqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
 qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMzVBfBfsTlvlvlvXYBfBfBfyNdZBfBfkCYxMOxGxGFbVRAFBfAwVUVUPkPXLmPXPkPkPkTKPkweYowerZPkPkPkLoPkPkPkPkPkPkPkPXLmPXPkhmhmhmhmhmhmhmLmhmhmhmhmhmhmPkLmavzRavPkPkhmhmhmhmhmPkhmhmhmhmhmPkPkiGPkPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
 qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMzVBfBfsTNMZwNMsTVAKVBfBfBfBfBfsTMOMOVRVRMOMOMOBfnjVUYgPkBfjDBfPkqMqMYgbDBfBfBfbDYgqMqMYgYgqMqMqMqMqMPkBfjDBfPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfAEBfPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
-qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMzVBfBfsTsTsTsTsTsTsTYHUTsTsThssTMOMOGyGyMOMOMOBfBfVUYgPkPkFqPkPkqMqMYgbDBfsGBfbDYgqMqMqMYgYgqMvaqMqMPkPkFqPkPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMhmBfBfBfhmqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
+qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMzVBfBfsTsTsTsTsTsTsTYHUTsTsThssTMOMOGyGyMOMOMOBfBfVUYgPkPkFqPkPkqMqMYgbDBfsGBfbDYgqMqMqMYgYgqMvaqMqMPkPkRyPkPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMhmBfBfBfhmqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
 qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfBfBfBfBfBfBfBfBfBfBfBfBfBfFFBfBfBfBfBfBfBfBfvIPkqMYgYgxlYgYgqMqMYgPkwekSwePkYgqMqMqMqMYgYgqMqMqMYgGDZAGDYgqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfsGBfPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
 qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkBfBfBfBfBfBfBfBfBfBfBfBfBfBfFFBfBfBfsXcYBfBfSXKVPkYgYgqMqMYgYgYgqMYgPkRMEQRMPkYgqMYgYgYgYgYgYgqMqMYgGDBfGDYgqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMPkavPkavPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM
 qMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMYgPkPkPkNPPkojojojPkaNRzPkojojojPkojVUVUPkVUXzVUPkPkPkYgqMqMqMqMYgYgPkPkPkDbsTNqPkPkPkPkqMYgPkPWPkPkWDkSfNRyfNPkPkPWPkqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqMqM

@@ -145,6 +145,25 @@
 		qdel(src)
 
 /////////
+//Civstation Gunbox
+/////////
+/obj/item/gunbox/civstation
+
+/obj/item/gunbox/civstation/attack_self(mob/living/user)
+	var/list/options = list()
+	options["Energy - Stun Revolver"] = list(/obj/item/weapon/gun/energy/stunrevolver/secure)
+	options["Stun - Non-Lethal Taser"] = list(/obj/item/weapon/gun/energy/taser)
+	options["Small Energy - Compact Energy Pistol"] = list(/obj/item/weapon/gun/energy/gun/small)
+	var/choice = input(user,"What type of equipment?") as null|anything in options
+	if(src && choice)
+		var/list/things_to_spawn = options[choice]
+		for(var/new_type in things_to_spawn)
+			var/atom/movable/AM = new new_type(get_turf(src))
+			if(istype(AM, /obj/item/weapon/gun/))
+				to_chat(user, "You have chosen \the [AM]. This is probably worth more than what your paycheck can be used for.")
+		qdel(src)
+
+/////////
 // Illum Box
 /////////
 
